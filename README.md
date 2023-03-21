@@ -21,12 +21,14 @@ Implementation of methods used in the "Unsupervised extraction, classification a
     * change the `modelname` in `make_hf_dataset.py`
     * change the `modelname` in `train_transformer.py`
 
-## Interactive visualisations
+## Interactive visualizations
+
+The 2121 extracted segment types from the *Nursing/other* category are available in [`predictions/segment_types.feather`](https://zepzep.github.io/mimic-notes-extraction/predictions/segment_types.feather). The file contains their titles, frequencies, clustering and doc2vec embedding.
 
 ### Latent space
-We use the Tensorboard embedding projector to visualise the vector space of the 2021 extracted titles. It is available [here](https://zepzep.github.io/mimic-notes-extraction/pages/projector/).
+We use the Tensorboard embedding projector to visualise the doc2vec vector space of the 2121 extracted segment types. It is available [here](https://zepzep.github.io/mimic-notes-extraction/pages/projector/).
 
-The bookmarks (bottom right) broke recently and dont work properly. However if you manually upload the [`bookmarks_mimic.txt`](https://zepzep.github.io/mimic-notes-extraction/pages/projector/oss_data/bookmarks_mimic.txt) file, it will show the same T-SNE visualisation that is in the paper.
+The bookmarks (bottom right) broke recently and don't work properly. However if you manually upload the [`bookmarks_mimic.txt`](https://zepzep.github.io/mimic-notes-extraction/pages/projector/oss_data/bookmarks_mimic.txt) file, it will show the same T-SNE visualisation that is in the paper.
 
 
 ### Clustering treemaps
