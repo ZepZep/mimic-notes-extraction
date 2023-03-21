@@ -1,0 +1,19 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "MIMIC notes",
+      "tensorShape": [2121, 50],
+      "tensorPath": "oss_data/c_nurse-titles_d2v_vec.tsv",
+      "metadataPath": "oss_data/c_nurse-titles_d2v_meta.tsv",
+      "bookmarksPath": "oss_data/bookmarks_mimic.txt"
+    },
+    {
+      "tensorName": "Clinical notes",
+      "tensorShape": [2078, 50],
+      "tensorPath": "oss_data/titles_d2v_vec.tsv",
+      "metadataPath": "oss_data/titles_d2v_meta_cluster.tsv",
+      "bookmarksPath": "oss_data/bookmarks.txt"
+    }
+  ],
+  "modelCheckpointPath": "Clinical note extraction"
+}
